@@ -281,6 +281,16 @@ evdev:atkbd:dmi:bvn*:bvr*:bd*:svnAlienware*:pnM17xR3:*
  KEYBOARD_KEY_89=ejectcd
 
 ###########################################################
+# Amazon
+###########################################################
+
+# Fire TV remote (Bluetooth LE): the OK button in the middle of the D-pad
+# sends keypad Enter; map it to Return, which is what TV interfaces such
+# as Plasma Bigscreen select with.
+evdev:input:b0005v0171p0421*
+ KEYBOARD_KEY_70058=enter
+
+###########################################################
 # Aquarius
 ###########################################################
 
